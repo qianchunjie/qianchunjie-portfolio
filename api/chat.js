@@ -1,10 +1,8 @@
-// 钱春节个人网页 · AI 助手后端（Vercel Serverless Function · DeepSeek）
+// 钱春节个人网页 · AI 助手后端（Node + DeepSeek）
 //
-// 部署步骤：
-//   1. 把本项目部署到 Vercel（命令行 `vercel` 或 GitHub 导入均可）。
-//   2. 在 Vercel 项目 Settings → Environment Variables 添加：
-//      DEEPSEEK_API_KEY = sk-...（在 platform.deepseek.com 注册并充值后获取）
-//   3. 前端 script.js 会请求 /api/chat 驱动聊天助手。
+// 由 server.js 引入，处理 POST /api/chat。部署到 Zeabur 等 Node 平台后，
+// 在平台的环境变量里设置 DEEPSEEK_API_KEY = sk-...（platform.deepseek.com 获取），
+// 前端 script.js 会请求 /api/chat 驱动聊天助手。
 //
 // 密钥只保存在服务端环境变量中，绝不暴露给浏览器。
 // 说明：本文件里的"人设提示词"在服务端，前端拿不到；若把整个仓库推到公开
