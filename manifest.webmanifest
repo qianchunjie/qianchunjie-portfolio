@@ -1,0 +1,13 @@
+{
+  "name": "钱春节 | AI 应用 · 个人网页",
+  "short_name": "QCJ",
+  "description": "南京邮电大学计算数学硕士，专注 Agent、LLM/VLM 与产品落地。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07110f",
+  "theme_color": "#081211",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

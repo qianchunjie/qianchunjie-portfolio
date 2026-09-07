@@ -1,0 +1,7 @@
+{
+  "name": "qianchunjie-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "钱春节的个人网页 + AI 助手后端（Vercel Function · DeepSeek）"
+}

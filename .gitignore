@@ -1,0 +1,15 @@
+# 依赖与构建产物
+node_modules/
+.vercel/
+
+# 本地环境变量（密钥绝不能提交）
+.env
+.env.local
+
+# 系统与编辑器文件
+.DS_Store
+Thumbs.db
+
+# 本地工具与参考项目（不部署）
+.claude/
+Portfolio-main/
