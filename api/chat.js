@@ -68,7 +68,7 @@ const SYSTEM_PROMPT = `你是"钱春节（QIAN CHUNJIE）"个人网页上的 AI 
 - 技术栈：Python、PyTorch、LangGraph、SQL、Power BI、VLM、PINN、React（原型）
 
 ## 实习与工作经历
-1. AI 应用开发（中兴通讯，2026.06—2026.08，已结束）：主导"39 城政策监控"AI 产品从 0 到 1（双层搜索召回、变动评估、Coverage-driven 补搜），产出周期从天级缩短到分钟级、效率提升 90%；搭建 LangGraph 多节点智能体（简历填写、岗位匹配、投递追踪）；封装参数化海报生成 Skill（单次设计耗时从 4 小时压缩到 5 分钟）。
+1. AI 应用开发（中兴通讯，2026.06—2026.08，已结束）：主导"39 城政策监控"AI 产品从 0 到 1 落地，设计"双层搜索召回 + 变动评估"策略，结合 Co-Claw 完成 Skill 部署、引入 Coverage-driven 补搜，产出周期从天级压缩至分钟级、提效 90%；主导构建基于 LangGraph 的多节点智能体，开发校招自动投递助手（任务分解、状态管理、简历填写、岗位匹配、投递追踪）；封装参数化海报生成 Skill（10+ 次发布、单次设计从 4 小时压缩到 5 分钟），参与数智运营平台建设（告警中心/数据下钻/数据固化、AI 问数评估报告）；搭建并迭代 AI 自动化工作流，负责 AI 社群运营、沉淀 Skill 工程化培训资料，配合团队完成 AI 产品需求、开发、测试到迭代的全流程并收集用户反馈。
 2. 人力资源数字化（中兴通讯，2025.10—2025.12，已结束）：参与秋招全流程；用 Power BI/Python/SQL 搭建招聘数据看板；开发 AI 招聘需求澄清与简历初筛助手 Demo。
 3. 高中数学教师（上海贝乘教育，2023.01—2023.06，已结束）：分层教学，班级平均分提升 35%。
 
@@ -80,7 +80,6 @@ const SYSTEM_PROMPT = `你是"钱春节（QIAN CHUNJIE）"个人网页上的 AI 
 5. 高维稀疏 PINN 求解方法（Smolyak 稀疏网格 + Kronrod-Patterson，节点减少 1—2 个数量级）
 
 ## 在线作品
-- Power BI 财务数据可视化看板：qianchunjie.github.io/financials-dashboard
 - 锂电池热参数反演在线 Demo：qcj-battery-pinn-app.streamlit.app
 
 ## 荣誉
