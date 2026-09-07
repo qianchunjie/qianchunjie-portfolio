@@ -161,3 +161,18 @@ body.cursor-active .pointer-glow{background:radial-gradient(circle,rgba(168,255,
 .light .contact-form input::placeholder,.light .contact-form textarea::placeholder{color:rgba(18,58,43,.45)}
 .light .form-status.err{color:#ffd9cf}
 @media(max-width:650px){.form-row{grid-template-columns:1fr}.chat-launch{right:18px;bottom:80px}.chat-panel{right:18px;bottom:138px}}
+
+/* ===== 日常生活 ===== */
+.daily-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:9%;align-items:center}
+.daily-copy h2{font-size:clamp(30px,3.4vw,46px);line-height:1.18;letter-spacing:-.045em;margin:0}
+.daily-copy>p{font-size:16px;color:var(--muted);margin:22px 0 0;max-width:500px;line-height:1.9}
+.daily-hobbies{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:34px}
+.daily-hobbies>div{border:1px solid var(--line);padding:16px 18px;background:rgba(255,255,255,.02)}
+.daily-hobbies b{display:block;font-size:15px;font-weight:700;margin-bottom:3px}
+.daily-hobbies span{font:9px ui-monospace,monospace;color:var(--muted);letter-spacing:.12em}
+.daily-photo{margin:0;height:460px}
+.daily-photo img{object-position:center}
+@media(max-width:900px){.daily-layout{grid-template-columns:1fr;gap:40px}.daily-photo{height:420px}}
+@media(max-width:650px){.daily-copy h2{font-size:30px}.daily-photo{height:330px}.daily-hobbies{grid-template-columns:1fr 1fr;gap:10px}.daily-hobbies>div{padding:13px 14px}}
+.intro .daily-layout{margin-top:90px;border-top:1px solid var(--line);padding-top:70px}
+@media(max-width:650px){.intro .daily-layout{margin-top:60px;padding-top:48px}}

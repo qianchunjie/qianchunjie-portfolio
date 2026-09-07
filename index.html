@@ -41,7 +41,7 @@
   <header class="site-header">
     <a class="brand" href="#home" aria-label="返回首页"><span>QCJ</span><i></i></a>
     <nav class="desktop-nav" aria-label="主导航">
-      <a href="#about">关于</a><a href="#experience">经历</a><a href="#projects">项目</a><a href="#campus">校园</a><a href="#honors">荣誉</a><a href="https://github.com/qianchunjie" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="#about">关于</a><a href="#experience">经历</a><a href="#projects">项目</a><a href="#education">教育</a><a href="#campus">校园</a><a href="#honors">荣誉</a><a href="https://github.com/qianchunjie" target="_blank" rel="noopener">GitHub ↗</a>
     </nav>
     <div class="header-actions">
       <button class="theme-toggle" type="button" aria-label="切换明暗主题" aria-pressed="false"><span>◐</span></button>
@@ -83,8 +83,8 @@
           <figure class="life-photo"><img src="assets/life.jpg" alt="钱春节在书店的生活照" width="1122" height="1428" loading="lazy"><figcaption><span>BEYOND THE CODE</span><p>保持好奇，也保持对真实世界的感知。</p></figcaption></figure>
         </div>
         <div class="intro-body reveal delay-1">
-          <p>我拥有数学与应用数学本科、计算数学硕士的复合训练，既能理解模型背后的数理结构，也能完成从需求分析、Prompt 策略、工作流编排到异常处理与产品落地的完整闭环。</p>
-          <p>在中兴通讯，我主导政策监控 AI 产品从 0 到 1 落地，将天级产出压缩至分钟级；同时构建基于 LangGraph 的多节点智能体，为校招场景提供自动填写、岗位匹配与投递追踪能力。</p>
+          <p>从数学系一路读上来，我习惯用严谨的方式拆解问题，也慢慢长出了做产品的手感——从需求分析、Prompt 策略到工作流编排，把一个想法一步步推进到真正能用的产品。</p>
+          <p>在中兴通讯，我把靠人工盯的政策监控流程改造成了分钟级自动化的 AI 产品，也用 LangGraph 搭起了能自己填简历、匹配岗位的校招投递助手。我喜欢把复杂的东西一点点变简单。</p>
           <div class="capability-list">
             <div><b>01</b><span>AI 应用工程</span><p>Agent 工作流、结构化输出、异常处理</p></div>
             <div><b>02</b><span>模型与算法</span><p>LLM / VLM、PINN、数值计算</p></div>
@@ -92,6 +92,24 @@
           </div>
           <div class="tags"><span>Agent Workflow</span><span>LLM / VLM</span><span>Prompt Engineering</span><span>Numerical Computing</span><span>Product Thinking</span></div>
         </div>
+      </div>
+
+      <div class="daily-layout">
+        <div class="daily-copy reveal">
+          <p class="kicker">性格与生活</p>
+          <h2>用脚步丈量世界，<br>用镜头记录热爱。</h2>
+          <p>我是典型的 ENFJ：乐观、认真，答应的事会负责到底。工作之外，爱扛着相机拍下沿途的风景，用音乐和健身给自己充电，也常背起包去陌生的地方走走。总想再学点新的、试试更难的事——在挑战里持续学习与成长，是我最自在的状态。</p>
+          <div class="daily-hobbies">
+            <div><b>摄影</b><span>PHOTOGRAPHY</span></div>
+            <div><b>音乐</b><span>MUSIC</span></div>
+            <div><b>健身</b><span>FITNESS</span></div>
+            <div><b>旅游</b><span>TRAVEL</span></div>
+          </div>
+        </div>
+        <figure class="life-photo daily-photo reveal delay-1">
+          <img src="assets/生活.png" alt="钱春节的日常生活照片" loading="lazy">
+          <figcaption><span>LIFE BEYOND WORK</span><p>认真做事，也认真生活。</p></figcaption>
+        </figure>
       </div>
     </section>
 
@@ -135,7 +153,7 @@
           <div class="project-content"><div class="project-meta"><span>MULTIMODAL AGENT · 2026</span><b>02</b></div><h3>移动端多模态 GUI Agent</h3><p>连接自然语言、实时视觉感知、模型决策与真机动作，支持复杂跨 App 多步骤任务。</p><div class="project-footer"><div><span>Python</span><span>VLM</span><span>ReAct</span><span>ADB</span></div><button aria-label="查看详情">↗</button></div></div>
         </article>
         <article class="project-card reveal" tabindex="0" role="button" aria-label="查看项目详情：锂电池热参数反演系统" data-project="pinn">
-          <div class="project-visual battery-visual"><img src="assets/5a8f1499c1f772de19b03befde8db16f.png" alt="电池内部温度预测结果" loading="lazy"><span>PHYSICS × NEURAL NETWORK</span></div>
+          <div class="project-visual battery-visual"><img src="assets/电池预测图片.png" alt="电池内部温度预测结果" loading="lazy"><span>PHYSICS × NEURAL NETWORK</span></div>
           <div class="project-content"><div class="project-meta"><span>PINN · 2025</span><b>03</b></div><h3>锂电池热参数反演系统</h3><p>将观测数据与热传导 PDE 约束联合训练，实现稀疏观测下的参数辨识与温度场重构。</p><div class="metrics"><span><strong>&lt;1%</strong>反演误差</span><span><strong>&lt;2%</strong>重构误差</span><span><strong>ms</strong>推理</span></div><div class="project-footer"><div><span>PyTorch</span><span>PINN</span><span>PDE</span></div><div class="project-links"><a href="https://github.com/qianchunjie/battery-pinn-app" target="_blank" rel="noopener" aria-label="查看 GitHub 源码" title="GitHub 源码">GH</a><a class="demo" href="https://qcj-battery-pinn-app.streamlit.app/" target="_blank" rel="noopener" aria-label="打开在线演示" title="在线演示">在线 Demo ↗</a></div></div></div>
         </article>
       </div>
@@ -147,7 +165,7 @@
       </div>
     </section>
 
-    <section class="section education">
+    <section class="section education" id="education">
       <div class="section-label reveal"><span>04</span><p>EDUCATION / 教育</p></div>
       <div class="education-grid">
         <article class="edu-card reveal"><span class="edu-year">2024 — 2027</span><p class="edu-index">01</p><h3>南京邮电大学</h3><h4>计算数学 · 硕士</h4><p>专业排名 TOP 20% · 2024 级班长</p><div class="edu-note">研究方向涵盖数值分析、PDE 数值解、深度学习、优化与科学计算。</div></article>
@@ -173,7 +191,7 @@
           <div><span>国家级</span><p>“华为杯”中国研究生数学建模竞赛国家奖</p><b>01</b></div>
           <div><span>国家级</span><p>中兴捧月全球精英挑战赛优胜奖</p><b>02</b></div>
           <div><span>奖学金</span><p>国家励志奖学金 · 研究生二等奖学金</p><b>03</b></div>
-          <div><span>综合能力</span><p>校模拟招聘大赛一等奖 · 优秀营员 · 三好学生</p><b>04</b></div>
+          <div><span>综合能力</span><p>校模拟招聘大赛一等奖 · 优秀营员 · 三好学生 · 校运动会二等奖</p><b>04</b></div>
         </div></div>
     </section>
 
@@ -204,7 +222,7 @@
 
   <footer><a class="brand" href="#home"><span>QCJ</span><i></i></a><p>© <span id="year"></span> 钱春节 · Designed & built from scratch.</p><div class="footer-links"><a href="https://github.com/qianchunjie" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a><a href="mailto:18355220163@163.com"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>18355220163@163.com</a><a href="tel:18355220163"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>电话 / 微信：18355220163</a></div></footer>
 
-  <div class="mobile-menu" aria-hidden="true"><a href="#about">关于</a><a href="#experience">经历</a><a href="#projects">项目</a><a href="#campus">校园</a><a href="#honors">荣誉</a><a href="https://github.com/qianchunjie" target="_blank" rel="noopener">GitHub ↗</a><a href="#contact">联系</a></div>
+  <div class="mobile-menu" aria-hidden="true"><a href="#about">关于</a><a href="#experience">经历</a><a href="#projects">项目</a><a href="#education">教育</a><a href="#campus">校园</a><a href="#honors">荣誉</a><a href="https://github.com/qianchunjie" target="_blank" rel="noopener">GitHub ↗</a><a href="#contact">联系</a></div>
   <dialog class="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="关闭">×</button><div class="dialog-index"></div><p class="dialog-type"></p><h2 id="dialog-title"></h2><p class="dialog-summary"></p><div class="dialog-columns"><div><h3>问题</h3><p class="dialog-problem"></p></div><div><h3>我的工作</h3><p class="dialog-work"></p></div></div><div class="dialog-result"></div></dialog>
   <div class="scroll-progress" aria-hidden="true"></div>
   <button class="back-to-top" type="button" aria-label="返回顶部">↑</button>
